@@ -15,11 +15,26 @@ const columns = [
 
 const rows = [
   { id: 0, title: 'Example' },
-  { id: 1, title: 'Demo' }
+  { id: 1, title: 'Demo' },
+  { id: 1, title: 'Demo' },
+  { id: 1, title: 'Demo' },
+  { id: 1, title: 'Demo' },
+  { id: 1, title: 'Demo' },
 ];
 
+//map 연습
+
+//월별 날짜 계산
+function makeDate(month){
+  
+}
+
+//row에 data넣기
+
 function App() {
-  return <DataGrid columns={columns} rows={rows} />;
+  return <DataGrid 
+  columns={columns} 
+  rows={rows} />;
 }
 
 export default App;
